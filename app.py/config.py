@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     )
 
     # Application
-    app_name: str = "VoiceForge"
+    app_name: str = "Singify"
     app_env: str = "development"
     debug: bool = False
     secret_key: str
